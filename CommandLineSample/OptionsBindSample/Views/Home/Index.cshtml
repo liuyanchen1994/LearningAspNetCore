@@ -1,0 +1,10 @@
+﻿@using Microsoft.Extensions.Options;
+@model OptionsBindSample.Class
+@*@inject IOptions<OptionsBindSample.Class> ClassAccesser*@  @*不热更新*@
+@inject IOptionsSnapshot<OptionsBindSample.Class> ClassAccesser;   //热更新
+@{
+    ViewData["Title"] = "Index";
+}
+<h2>Index</h2>
+@*<h4>@Model.ClassDesc</h4>*@
+<h6>@ClassAccesser.Value.ClassDesc</h6>

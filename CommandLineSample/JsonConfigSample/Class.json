@@ -1,0 +1,18 @@
+﻿{
+  "ClassNO": "终极一班",
+  "ClassDesc": "ASP.NET Core",
+  "Students": [
+    {
+      "name": "Damon",
+      "age": 12
+    },
+    {
+      "name": "Damon2",
+      "age": 13
+    },
+    {
+      "name": "Damon3",
+      "age": 14
+    }
+  ]
+}
