@@ -12,5 +12,6 @@ namespace JwtAuthSample.Models
         public string Audience { get; set; }
 
         public string SecretKey { get; set; }
+
     }
 }
